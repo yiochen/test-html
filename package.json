@@ -1,0 +1,25 @@
+{
+  "name": "test-html",
+  "version": "0.0.1",
+  "description": "A simple utility to create DOM elements in test",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "testHtml.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write **/*.js"
+  },
+  "author": "yiouc99@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": true
+  }
+}
